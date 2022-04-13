@@ -17,6 +17,10 @@ export const AddCategory = ({setCategories}) => {
             setInputValue("");
         }
     }
+    
+    const handleClick=()=>{
+        setInputValue("");
+    }
 
     return (
         <form onSubmit={handleSubmit}>
@@ -24,6 +28,7 @@ export const AddCategory = ({setCategories}) => {
                 type="text"
                 value = {inputValue}
                 onChange = {handleInputChange}
+                onClick = {handleClick}
             /> 
         </form>
     )
