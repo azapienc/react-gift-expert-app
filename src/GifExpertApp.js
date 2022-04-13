@@ -8,7 +8,7 @@ const GifExpertApp = () => {
     const [categories, setCategories] = useState([]);
 
     return<>
-        <h2 className="title">GIFT App</h2>
+        <h2 className="title">GIF App</h2>
 
         {/* //This is another component */}
         <AddCategory setCategories={setCategories}></AddCategory>
